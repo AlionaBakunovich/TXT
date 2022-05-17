@@ -1,1 +1,21 @@
-
+ID - TC1
+priority - Smoke
+requirements - REQ1
+component - new user registration
+summary - registering a new user using a mobile phone
+steps to reproduce
+  1) open the site
+  2) enter the phone number in the input window 'Mobile'
+  3) wait for an SMS with a code
+  4) enter the code in the input window  that appears
+  5)click on the button 'Registration'
+expected result - 
+  1) the site is loading;
+  2) the phone number is displayed in the input window 'Mobile';
+  3) the code comes to the phone number;
+  4) code is displayed in a new input window;
+  5) a message  about successful registration appears
+  "actual result - 
+  1) the site is loading;
+  2) the phone number is not displayed in the input window 'Mobile'
+ status - create issue
